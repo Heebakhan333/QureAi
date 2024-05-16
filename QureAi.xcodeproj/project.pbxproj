@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFCC1F242BF5E0F100BEB4FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F232BF5E0F100BEB4FA /* AppDelegate.swift */; };
+		CFCC1F262BF5E0F100BEB4FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F252BF5E0F100BEB4FA /* SceneDelegate.swift */; };
+		CFCC1F282BF5E0F100BEB4FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F272BF5E0F100BEB4FA /* ViewController.swift */; };
+		CFCC1F2B2BF5E0F100BEB4FA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CFCC1F2A2BF5E0F100BEB4FA /* Base */; };
+		CFCC1F2E2BF5E0F100BEB4FA /* QureAi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F2C2BF5E0F100BEB4FA /* QureAi.xcdatamodeld */; };
+		CFCC1F302BF5E0F300BEB4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCC1F2F2BF5E0F300BEB4FA /* Assets.xcassets */; };
+		CFCC1F332BF5E0F300BEB4FA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CFCC1F322BF5E0F300BEB4FA /* Base */; };
+		CFCC1F3E2BF5E0F300BEB4FA /* QureAiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F3D2BF5E0F300BEB4FA /* QureAiTests.swift */; };
+		CFCC1F482BF5E0F300BEB4FA /* QureAiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F472BF5E0F300BEB4FA /* QureAiUITests.swift */; };
+		CFCC1F4A2BF5E0F300BEB4FA /* QureAiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F492BF5E0F300BEB4FA /* QureAiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFCC1F3A2BF5E0F300BEB4FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCC1F182BF5E0F100BEB4FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFCC1F1F2BF5E0F100BEB4FA;
+			remoteInfo = QureAi;
+		};
+		CFCC1F442BF5E0F300BEB4FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFCC1F182BF5E0F100BEB4FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFCC1F1F2BF5E0F100BEB4FA;
+			remoteInfo = QureAi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFCC1F202BF5E0F100BEB4FA /* QureAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QureAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCC1F232BF5E0F100BEB4FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFCC1F252BF5E0F100BEB4FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CFCC1F272BF5E0F100BEB4FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFCC1F2A2BF5E0F100BEB4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFCC1F2D2BF5E0F100BEB4FA /* QureAi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QureAi.xcdatamodel; sourceTree = "<group>"; };
+		CFCC1F2F2BF5E0F300BEB4FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFCC1F322BF5E0F300BEB4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFCC1F342BF5E0F300BEB4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFCC1F392BF5E0F300BEB4FA /* QureAiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QureAiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCC1F3D2BF5E0F300BEB4FA /* QureAiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QureAiTests.swift; sourceTree = "<group>"; };
+		CFCC1F432BF5E0F300BEB4FA /* QureAiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QureAiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFCC1F472BF5E0F300BEB4FA /* QureAiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QureAiUITests.swift; sourceTree = "<group>"; };
+		CFCC1F492BF5E0F300BEB4FA /* QureAiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QureAiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFCC1F1D2BF5E0F100BEB4FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCC1F362BF5E0F300BEB4FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCC1F402BF5E0F300BEB4FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFCC1F172BF5E0F100BEB4FA = {
+			isa = PBXGroup;
+			children = (
+				CFCC1F222BF5E0F100BEB4FA /* QureAi */,
+				CFCC1F3C2BF5E0F300BEB4FA /* QureAiTests */,
+				CFCC1F462BF5E0F300BEB4FA /* QureAiUITests */,
+				CFCC1F212BF5E0F100BEB4FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFCC1F212BF5E0F100BEB4FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFCC1F202BF5E0F100BEB4FA /* QureAi.app */,
+				CFCC1F392BF5E0F300BEB4FA /* QureAiTests.xctest */,
+				CFCC1F432BF5E0F300BEB4FA /* QureAiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFCC1F222BF5E0F100BEB4FA /* QureAi */ = {
+			isa = PBXGroup;
+			children = (
+				CFCC1F232BF5E0F100BEB4FA /* AppDelegate.swift */,
+				CFCC1F252BF5E0F100BEB4FA /* SceneDelegate.swift */,
+				CFCC1F272BF5E0F100BEB4FA /* ViewController.swift */,
+				CFCC1F292BF5E0F100BEB4FA /* Main.storyboard */,
+				CFCC1F2F2BF5E0F300BEB4FA /* Assets.xcassets */,
+				CFCC1F312BF5E0F300BEB4FA /* LaunchScreen.storyboard */,
+				CFCC1F342BF5E0F300BEB4FA /* Info.plist */,
+				CFCC1F2C2BF5E0F100BEB4FA /* QureAi.xcdatamodeld */,
+			);
+			path = QureAi;
+			sourceTree = "<group>";
+		};
+		CFCC1F3C2BF5E0F300BEB4FA /* QureAiTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFCC1F3D2BF5E0F300BEB4FA /* QureAiTests.swift */,
+			);
+			path = QureAiTests;
+			sourceTree = "<group>";
+		};
+		CFCC1F462BF5E0F300BEB4FA /* QureAiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFCC1F472BF5E0F300BEB4FA /* QureAiUITests.swift */,
+				CFCC1F492BF5E0F300BEB4FA /* QureAiUITestsLaunchTests.swift */,
+			);
+			path = QureAiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFCC1F1F2BF5E0F100BEB4FA /* QureAi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCC1F4D2BF5E0F300BEB4FA /* Build configuration list for PBXNativeTarget "QureAi" */;
+			buildPhases = (
+				CFCC1F1C2BF5E0F100BEB4FA /* Sources */,
+				CFCC1F1D2BF5E0F100BEB4FA /* Frameworks */,
+				CFCC1F1E2BF5E0F100BEB4FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QureAi;
+			productName = QureAi;
+			productReference = CFCC1F202BF5E0F100BEB4FA /* QureAi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFCC1F382BF5E0F300BEB4FA /* QureAiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCC1F502BF5E0F300BEB4FA /* Build configuration list for PBXNativeTarget "QureAiTests" */;
+			buildPhases = (
+				CFCC1F352BF5E0F300BEB4FA /* Sources */,
+				CFCC1F362BF5E0F300BEB4FA /* Frameworks */,
+				CFCC1F372BF5E0F300BEB4FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCC1F3B2BF5E0F300BEB4FA /* PBXTargetDependency */,
+			);
+			name = QureAiTests;
+			productName = QureAiTests;
+			productReference = CFCC1F392BF5E0F300BEB4FA /* QureAiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFCC1F422BF5E0F300BEB4FA /* QureAiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFCC1F532BF5E0F300BEB4FA /* Build configuration list for PBXNativeTarget "QureAiUITests" */;
+			buildPhases = (
+				CFCC1F3F2BF5E0F300BEB4FA /* Sources */,
+				CFCC1F402BF5E0F300BEB4FA /* Frameworks */,
+				CFCC1F412BF5E0F300BEB4FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFCC1F452BF5E0F300BEB4FA /* PBXTargetDependency */,
+			);
+			name = QureAiUITests;
+			productName = QureAiUITests;
+			productReference = CFCC1F432BF5E0F300BEB4FA /* QureAiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFCC1F182BF5E0F100BEB4FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CFCC1F1F2BF5E0F100BEB4FA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CFCC1F382BF5E0F300BEB4FA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CFCC1F1F2BF5E0F100BEB4FA;
+					};
+					CFCC1F422BF5E0F300BEB4FA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CFCC1F1F2BF5E0F100BEB4FA;
+					};
+				};
+			};
+			buildConfigurationList = CFCC1F1B2BF5E0F100BEB4FA /* Build configuration list for PBXProject "QureAi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFCC1F172BF5E0F100BEB4FA;
+			productRefGroup = CFCC1F212BF5E0F100BEB4FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFCC1F1F2BF5E0F100BEB4FA /* QureAi */,
+				CFCC1F382BF5E0F300BEB4FA /* QureAiTests */,
+				CFCC1F422BF5E0F300BEB4FA /* QureAiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFCC1F1E2BF5E0F100BEB4FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCC1F302BF5E0F300BEB4FA /* Assets.xcassets in Resources */,
+				CFCC1F332BF5E0F300BEB4FA /* Base in Resources */,
+				CFCC1F2B2BF5E0F100BEB4FA /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCC1F372BF5E0F300BEB4FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCC1F412BF5E0F300BEB4FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFCC1F1C2BF5E0F100BEB4FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCC1F282BF5E0F100BEB4FA /* ViewController.swift in Sources */,
+				CFCC1F242BF5E0F100BEB4FA /* AppDelegate.swift in Sources */,
+				CFCC1F2E2BF5E0F100BEB4FA /* QureAi.xcdatamodeld in Sources */,
+				CFCC1F262BF5E0F100BEB4FA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCC1F352BF5E0F300BEB4FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCC1F3E2BF5E0F300BEB4FA /* QureAiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFCC1F3F2BF5E0F300BEB4FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFCC1F482BF5E0F300BEB4FA /* QureAiUITests.swift in Sources */,
+				CFCC1F4A2BF5E0F300BEB4FA /* QureAiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFCC1F3B2BF5E0F300BEB4FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFCC1F1F2BF5E0F100BEB4FA /* QureAi */;
+			targetProxy = CFCC1F3A2BF5E0F300BEB4FA /* PBXContainerItemProxy */;
+		};
+		CFCC1F452BF5E0F300BEB4FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFCC1F1F2BF5E0F100BEB4FA /* QureAi */;
+			targetProxy = CFCC1F442BF5E0F300BEB4FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFCC1F292BF5E0F100BEB4FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCC1F2A2BF5E0F100BEB4FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFCC1F312BF5E0F300BEB4FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFCC1F322BF5E0F300BEB4FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFCC1F4B2BF5E0F300BEB4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFCC1F4C2BF5E0F300BEB4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFCC1F4E2BF5E0F300BEB4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YJMKZM7D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QureAi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qure.QureAi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFCC1F4F2BF5E0F300BEB4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YJMKZM7D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QureAi/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qure.QureAi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFCC1F512BF5E0F300BEB4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YJMKZM7D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qure.QureAiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QureAi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QureAi";
+			};
+			name = Debug;
+		};
+		CFCC1F522BF5E0F300BEB4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YJMKZM7D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qure.QureAiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QureAi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/QureAi";
+			};
+			name = Release;
+		};
+		CFCC1F542BF5E0F300BEB4FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YJMKZM7D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qure.QureAiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QureAi;
+			};
+			name = Debug;
+		};
+		CFCC1F552BF5E0F300BEB4FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4YJMKZM7D7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qure.QureAiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QureAi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFCC1F1B2BF5E0F100BEB4FA /* Build configuration list for PBXProject "QureAi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCC1F4B2BF5E0F300BEB4FA /* Debug */,
+				CFCC1F4C2BF5E0F300BEB4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCC1F4D2BF5E0F300BEB4FA /* Build configuration list for PBXNativeTarget "QureAi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCC1F4E2BF5E0F300BEB4FA /* Debug */,
+				CFCC1F4F2BF5E0F300BEB4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCC1F502BF5E0F300BEB4FA /* Build configuration list for PBXNativeTarget "QureAiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCC1F512BF5E0F300BEB4FA /* Debug */,
+				CFCC1F522BF5E0F300BEB4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFCC1F532BF5E0F300BEB4FA /* Build configuration list for PBXNativeTarget "QureAiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFCC1F542BF5E0F300BEB4FA /* Debug */,
+				CFCC1F552BF5E0F300BEB4FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFCC1F2C2BF5E0F100BEB4FA /* QureAi.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFCC1F2D2BF5E0F100BEB4FA /* QureAi.xcdatamodel */,
+			);
+			currentVersion = CFCC1F2D2BF5E0F100BEB4FA /* QureAi.xcdatamodel */;
+			path = QureAi.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CFCC1F182BF5E0F100BEB4FA /* Project object */;
+}
