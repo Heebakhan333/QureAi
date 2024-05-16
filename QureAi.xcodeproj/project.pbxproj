@@ -17,6 +17,7 @@
 		CFCC1F3E2BF5E0F300BEB4FA /* QureAiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F3D2BF5E0F300BEB4FA /* QureAiTests.swift */; };
 		CFCC1F482BF5E0F300BEB4FA /* QureAiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F472BF5E0F300BEB4FA /* QureAiUITests.swift */; };
 		CFCC1F4A2BF5E0F300BEB4FA /* QureAiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F492BF5E0F300BEB4FA /* QureAiUITestsLaunchTests.swift */; };
+		CFCC1F622BF5EED500BEB4FA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F612BF5EED500BEB4FA /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		CFCC1F432BF5E0F300BEB4FA /* QureAiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QureAiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCC1F472BF5E0F300BEB4FA /* QureAiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QureAiUITests.swift; sourceTree = "<group>"; };
 		CFCC1F492BF5E0F300BEB4FA /* QureAiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QureAiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFCC1F612BF5EED500BEB4FA /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +103,17 @@
 		CFCC1F222BF5E0F100BEB4FA /* QureAi */ = {
 			isa = PBXGroup;
 			children = (
-				CFCC1F232BF5E0F100BEB4FA /* AppDelegate.swift */,
-				CFCC1F252BF5E0F100BEB4FA /* SceneDelegate.swift */,
+				CFCC1F5F2BF5EA2200BEB4FA /* Storyboards */,
+				CFCC1F5C2BF5E9BF00BEB4FA /* Managers */,
+				CFCC1F5B2BF5E9B800BEB4FA /* Utilities */,
+				CFCC1F5A2BF5E9B000BEB4FA /* ViewModels */,
+				CFCC1F592BF5E9AC00BEB4FA /* Views */,
+				CFCC1F582BF5E9A500BEB4FA /* Models */,
+				CFCC1F572BF5E98700BEB4FA /* Resources */,
+				CFCC1F562BF5E97000BEB4FA /* Core */,
 				CFCC1F272BF5E0F100BEB4FA /* ViewController.swift */,
 				CFCC1F292BF5E0F100BEB4FA /* Main.storyboard */,
-				CFCC1F2F2BF5E0F300BEB4FA /* Assets.xcassets */,
 				CFCC1F312BF5E0F300BEB4FA /* LaunchScreen.storyboard */,
-				CFCC1F342BF5E0F300BEB4FA /* Info.plist */,
 				CFCC1F2C2BF5E0F100BEB4FA /* QureAi.xcdatamodeld */,
 			);
 			path = QureAi;
@@ -128,6 +134,91 @@
 				CFCC1F492BF5E0F300BEB4FA /* QureAiUITestsLaunchTests.swift */,
 			);
 			path = QureAiUITests;
+			sourceTree = "<group>";
+		};
+		CFCC1F562BF5E97000BEB4FA /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CFCC1F232BF5E0F100BEB4FA /* AppDelegate.swift */,
+				CFCC1F252BF5E0F100BEB4FA /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CFCC1F572BF5E98700BEB4FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CFCC1F2F2BF5E0F300BEB4FA /* Assets.xcassets */,
+				CFCC1F342BF5E0F300BEB4FA /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CFCC1F582BF5E9A500BEB4FA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CFCC1F592BF5E9AC00BEB4FA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFCC1F602BF5EEB700BEB4FA /* SplashScreen */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CFCC1F5A2BF5E9B000BEB4FA /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CFCC1F5B2BF5E9B800BEB4FA /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CFCC1F5E2BF5E9CE00BEB4FA /* Extensions */,
+				CFCC1F5D2BF5E9C600BEB4FA /* Constants */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CFCC1F5C2BF5E9BF00BEB4FA /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		CFCC1F5D2BF5E9C600BEB4FA /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CFCC1F5E2BF5E9CE00BEB4FA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CFCC1F5F2BF5EA2200BEB4FA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CFCC1F602BF5EEB700BEB4FA /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CFCC1F612BF5EED500BEB4FA /* SplashViewController.swift */,
+			);
+			path = SplashScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +356,7 @@
 				CFCC1F242BF5E0F100BEB4FA /* AppDelegate.swift in Sources */,
 				CFCC1F2E2BF5E0F100BEB4FA /* QureAi.xcdatamodeld in Sources */,
 				CFCC1F262BF5E0F100BEB4FA /* SceneDelegate.swift in Sources */,
+				CFCC1F622BF5EED500BEB4FA /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
