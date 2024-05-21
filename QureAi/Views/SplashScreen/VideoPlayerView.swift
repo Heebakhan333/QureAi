@@ -6,15 +6,26 @@
 //
 
 import UIKit
+import AVFoundation
 
 class VideoPlayerView: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    //MARK: Variables
+    // var playerLayer: AVPlayerLayer?
+    //   var playbackDidFinishCallback: (() -> Void)?
+    override class var layerClass: AnyClass {
+        return AVPlayerLayer.self
     }
-    */
-
+    
+    var playerLayer: AVPlayerLayer {
+        return layer as! AVPlayerLayer
+    }
+    
+    var player: AVPlayer? {
+        get {
+            return playerLayer.player
+        }
+        set {
+            playerLayer.player = newValue
+        }
+    }
 }

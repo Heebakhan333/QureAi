@@ -1,5 +1,5 @@
 //
-//  QureImages.swift
+//  AppImages.swift
 //  QureAi
 //
 //  Created by Heeba Khan on 21/05/24.
@@ -13,7 +13,7 @@ struct AppImages {
     static let onboardingImageFirst = UIImage(named: "onboardingImageFirst")
     static let onboardingImageSecond = UIImage(named: "onboardingImageSecond")
     static let onboardingImageThird = UIImage(named: "onboardingImageThird")
-//    static let onboardingImageFirst = UIImage(named: "onboardingImageFirst")
+
     
     
     

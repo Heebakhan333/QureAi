@@ -7,9 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15F928C33E89040D1BF93A99 /* Pods_QureAi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAF03C0BA9AAA4DC7B7FC8A7 /* Pods_QureAi.framework */; };
+		1EFCD121389EB7A720957152 /* Pods_QureAiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5DBCC5956ED142DB0630935 /* Pods_QureAiTests.framework */; };
+		450EE4196B4773F9C9964D7C /* Pods_QureAi_QureAiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882A270FAEF9EEEDA8668D7E /* Pods_QureAi_QureAiUITests.framework */; };
+		CF5918A72BFCA0F3000012CF /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5918A52BFCA0F2000012CF /* UIColor+Extension.swift */; };
+		CF5918A82BFCA0F3000012CF /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5918A62BFCA0F2000012CF /* UIView+Extension.swift */; };
+		CF5918AD2BFCAB5E000012CF /* CellIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5918AC2BFCAB5E000012CF /* CellIdentifiers.swift */; };
+		CF5918AF2BFCAD0D000012CF /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5918AE2BFCAD0D000012CF /* AppStrings.swift */; };
+		CF5918B12BFCADAB000012CF /* AppImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5918B02BFCADAB000012CF /* AppImages.swift */; };
+		CF5918B62BFCB7A0000012CF /* GenericDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5918B52BFCB7A0000012CF /* GenericDataSource.swift */; };
+		CF5918B82BFCB7BD000012CF /* ListViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5918B72BFCB7BD000012CF /* ListViewDataSource.swift */; };
+		CF5918BB2BFCB81B000012CF /* LandingPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5918BA2BFCB81B000012CF /* LandingPageViewModel.swift */; };
+		CF5918EC2BFCDA96000012CF /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918DC2BFCDA95000012CF /* IBMPlexSans-Bold.ttf */; };
+		CF5918ED2BFCDA96000012CF /* IBMPlexSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918DD2BFCDA95000012CF /* IBMPlexSans-MediumItalic.ttf */; };
+		CF5918EE2BFCDA96000012CF /* IBMPlexSans-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918DE2BFCDA95000012CF /* IBMPlexSans-ThinItalic.ttf */; };
+		CF5918EF2BFCDA96000012CF /* IBMPlexSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918DF2BFCDA95000012CF /* IBMPlexSans-Light.ttf */; };
+		CF5918F02BFCDA96000012CF /* IBMPlexSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918E02BFCDA95000012CF /* IBMPlexSans-BoldItalic.ttf */; };
+		CF5918F12BFCDA96000012CF /* IBMPlexSans-TextItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918E12BFCDA95000012CF /* IBMPlexSans-TextItalic.ttf */; };
+		CF5918F22BFCDA96000012CF /* IBMPlexSans-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918E22BFCDA95000012CF /* IBMPlexSans-Thin.ttf */; };
+		CF5918F32BFCDA96000012CF /* IBMPlexSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918E32BFCDA95000012CF /* IBMPlexSans-Italic.ttf */; };
+		CF5918F42BFCDA96000012CF /* IBMPlexSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918E42BFCDA95000012CF /* IBMPlexSans-ExtraLight.ttf */; };
+		CF5918F52BFCDA96000012CF /* IBMPlexSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918E52BFCDA95000012CF /* IBMPlexSans-LightItalic.ttf */; };
+		CF5918F62BFCDA96000012CF /* IBMPlexSans-Text.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918E62BFCDA95000012CF /* IBMPlexSans-Text.ttf */; };
+		CF5918F72BFCDA96000012CF /* IBMPlexSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918E72BFCDA95000012CF /* IBMPlexSans-SemiBold.ttf */; };
+		CF5918F82BFCDA96000012CF /* IBMPlexSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918E82BFCDA95000012CF /* IBMPlexSans-ExtraLightItalic.ttf */; };
+		CF5918F92BFCDA96000012CF /* IBMPlexSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918E92BFCDA95000012CF /* IBMPlexSans-Medium.ttf */; };
+		CF5918FA2BFCDA96000012CF /* IBMPlexSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918EA2BFCDA95000012CF /* IBMPlexSans-SemiBoldItalic.ttf */; };
+		CF5918FB2BFCDA96000012CF /* IBMPlexSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918EB2BFCDA96000012CF /* IBMPlexSans-Regular.ttf */; };
+		CF5918FE2BFCF4C2000012CF /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5918FD2BFCF4C2000012CF /* AppColors.swift */; };
+		CF5919032BFCFA2E000012CF /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5919022BFCFA2E000012CF /* UIFont+Extension.swift */; };
+		CF5919062BFD15E3000012CF /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5919052BFD15E3000012CF /* PhoneNumberViewController.swift */; };
+		CF5919092BFD17A5000012CF /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5919082BFD17A5000012CF /* UIButton+Extensions.swift */; };
+		CF8425E32BF618E800FA2772 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8425E22BF618E800FA2772 /* VideoPlayerView.swift */; };
+		CF8425E72BF61CFD00FA2772 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8425E62BF61CFD00FA2772 /* Navigator.swift */; };
+		CF8425EB2BF630DD00FA2772 /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8425EA2BF630DD00FA2772 /* LandingPageViewController.swift */; };
+		CF8425EF2BF7417D00FA2772 /* ColorAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8425EE2BF7417D00FA2772 /* ColorAssets.xcassets */; };
+		CF8425F32BF749E800FA2772 /* LandingPageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF8425F22BF749E800FA2772 /* LandingPageCollectionViewCell.xib */; };
+		CF8425F42BF749E800FA2772 /* LandingPageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8425F12BF749E800FA2772 /* LandingPageCollectionViewCell.swift */; };
+		CF8425F82BF7A68100FA2772 /* OnboardingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8425F72BF7A68100FA2772 /* OnboardingModel.swift */; };
+		CF8426012BFB3DAA00FA2772 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8426002BFB3DAA00FA2772 /* ThemeManager.swift */; };
+		CF84260C2BFB75E300FA2772 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84260B2BFB75E300FA2772 /* APIEndpoint.swift */; };
+		CF84260E2BFB763E00FA2772 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84260D2BFB763E00FA2772 /* NetworkManager.swift */; };
+		CF8426102BFB76C900FA2772 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84260F2BFB76C900FA2772 /* DataParser.swift */; };
+		CF8426122BFB772E00FA2772 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8426112BFB772E00FA2772 /* HTTPMethod.swift */; };
+		CFC24FFA2BF5FFD100FFDA7F /* splash_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CFC24FF92BF5FEFD00FFDA7F /* splash_video.mp4 */; };
 		CFCC1F242BF5E0F100BEB4FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F232BF5E0F100BEB4FA /* AppDelegate.swift */; };
 		CFCC1F262BF5E0F100BEB4FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F252BF5E0F100BEB4FA /* SceneDelegate.swift */; };
-		CFCC1F282BF5E0F100BEB4FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F272BF5E0F100BEB4FA /* ViewController.swift */; };
 		CFCC1F2B2BF5E0F100BEB4FA /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CFCC1F2A2BF5E0F100BEB4FA /* Base */; };
 		CFCC1F2E2BF5E0F100BEB4FA /* QureAi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F2C2BF5E0F100BEB4FA /* QureAi.xcdatamodeld */; };
 		CFCC1F302BF5E0F300BEB4FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFCC1F2F2BF5E0F300BEB4FA /* Assets.xcassets */; };
@@ -38,10 +81,59 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		071FE12D4DCFFEB3219E5B02 /* Pods-QureAi-QureAiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QureAi-QureAiUITests.debug.xcconfig"; path = "Target Support Files/Pods-QureAi-QureAiUITests/Pods-QureAi-QureAiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B3324C662A53563BDBD0619 /* Pods-QureAi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QureAi.release.xcconfig"; path = "Target Support Files/Pods-QureAi/Pods-QureAi.release.xcconfig"; sourceTree = "<group>"; };
+		732F9B2F7F21D57C2270E78A /* Pods-QureAiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QureAiTests.debug.xcconfig"; path = "Target Support Files/Pods-QureAiTests/Pods-QureAiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		742A3F99EE9A8F0F3AAB64C7 /* Pods-QureAiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QureAiTests.release.xcconfig"; path = "Target Support Files/Pods-QureAiTests/Pods-QureAiTests.release.xcconfig"; sourceTree = "<group>"; };
+		882A270FAEF9EEEDA8668D7E /* Pods_QureAi_QureAiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QureAi_QureAiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A24973DA883DA1F70F565EAD /* Pods-QureAi-QureAiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QureAi-QureAiUITests.release.xcconfig"; path = "Target Support Files/Pods-QureAi-QureAiUITests/Pods-QureAi-QureAiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A81387278F81B2C9CECDFE34 /* Pods-QureAi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QureAi.debug.xcconfig"; path = "Target Support Files/Pods-QureAi/Pods-QureAi.debug.xcconfig"; sourceTree = "<group>"; };
+		AAF03C0BA9AAA4DC7B7FC8A7 /* Pods_QureAi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QureAi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5918A52BFCA0F2000012CF /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		CF5918A62BFCA0F2000012CF /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		CF5918AC2BFCAB5E000012CF /* CellIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifiers.swift; sourceTree = "<group>"; };
+		CF5918AE2BFCAD0D000012CF /* AppStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
+		CF5918B02BFCADAB000012CF /* AppImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImages.swift; sourceTree = "<group>"; };
+		CF5918B52BFCB7A0000012CF /* GenericDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDataSource.swift; sourceTree = "<group>"; };
+		CF5918B72BFCB7BD000012CF /* ListViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewDataSource.swift; sourceTree = "<group>"; };
+		CF5918BA2BFCB81B000012CF /* LandingPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewModel.swift; sourceTree = "<group>"; };
+		CF5918DC2BFCDA95000012CF /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
+		CF5918DD2BFCDA95000012CF /* IBMPlexSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CF5918DE2BFCDA95000012CF /* IBMPlexSans-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-ThinItalic.ttf"; sourceTree = "<group>"; };
+		CF5918DF2BFCDA95000012CF /* IBMPlexSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Light.ttf"; sourceTree = "<group>"; };
+		CF5918E02BFCDA95000012CF /* IBMPlexSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		CF5918E12BFCDA95000012CF /* IBMPlexSans-TextItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-TextItalic.ttf"; sourceTree = "<group>"; };
+		CF5918E22BFCDA95000012CF /* IBMPlexSans-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Thin.ttf"; sourceTree = "<group>"; };
+		CF5918E32BFCDA95000012CF /* IBMPlexSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Italic.ttf"; sourceTree = "<group>"; };
+		CF5918E42BFCDA95000012CF /* IBMPlexSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CF5918E52BFCDA95000012CF /* IBMPlexSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		CF5918E62BFCDA95000012CF /* IBMPlexSans-Text.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Text.ttf"; sourceTree = "<group>"; };
+		CF5918E72BFCDA95000012CF /* IBMPlexSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		CF5918E82BFCDA95000012CF /* IBMPlexSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		CF5918E92BFCDA95000012CF /* IBMPlexSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Medium.ttf"; sourceTree = "<group>"; };
+		CF5918EA2BFCDA95000012CF /* IBMPlexSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		CF5918EB2BFCDA96000012CF /* IBMPlexSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Regular.ttf"; sourceTree = "<group>"; };
+		CF5918FD2BFCF4C2000012CF /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		CF5919022BFCFA2E000012CF /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		CF5919052BFD15E3000012CF /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
+		CF5919082BFD17A5000012CF /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		CF8425E22BF618E800FA2772 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		CF8425E62BF61CFD00FA2772 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
+		CF8425EA2BF630DD00FA2772 /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
+		CF8425EE2BF7417D00FA2772 /* ColorAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ColorAssets.xcassets; sourceTree = "<group>"; };
+		CF8425F12BF749E800FA2772 /* LandingPageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageCollectionViewCell.swift; sourceTree = "<group>"; };
+		CF8425F22BF749E800FA2772 /* LandingPageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LandingPageCollectionViewCell.xib; sourceTree = "<group>"; };
+		CF8425F52BF74B5500FA2772 /* QureAi.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QureAi.entitlements; sourceTree = "<group>"; };
+		CF8425F72BF7A68100FA2772 /* OnboardingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingModel.swift; sourceTree = "<group>"; };
+		CF8426002BFB3DAA00FA2772 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		CF84260B2BFB75E300FA2772 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		CF84260D2BFB763E00FA2772 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		CF84260F2BFB76C900FA2772 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		CF8426112BFB772E00FA2772 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		CFC24FF92BF5FEFD00FFDA7F /* splash_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash_video.mp4; sourceTree = "<group>"; };
 		CFCC1F202BF5E0F100BEB4FA /* QureAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QureAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCC1F232BF5E0F100BEB4FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFCC1F252BF5E0F100BEB4FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CFCC1F272BF5E0F100BEB4FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CFCC1F2A2BF5E0F100BEB4FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFCC1F2D2BF5E0F100BEB4FA /* QureAi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QureAi.xcdatamodel; sourceTree = "<group>"; };
 		CFCC1F2F2BF5E0F300BEB4FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +145,7 @@
 		CFCC1F472BF5E0F300BEB4FA /* QureAiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QureAiUITests.swift; sourceTree = "<group>"; };
 		CFCC1F492BF5E0F300BEB4FA /* QureAiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QureAiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CFCC1F612BF5EED500BEB4FA /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		F5DBCC5956ED142DB0630935 /* Pods_QureAiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QureAiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +153,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15F928C33E89040D1BF93A99 /* Pods_QureAi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +161,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EFCD121389EB7A720957152 /* Pods_QureAiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +169,157 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450EE4196B4773F9C9964D7C /* Pods_QureAi_QureAiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		085DF8B3C5356ABA11B756A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A81387278F81B2C9CECDFE34 /* Pods-QureAi.debug.xcconfig */,
+				0B3324C662A53563BDBD0619 /* Pods-QureAi.release.xcconfig */,
+				071FE12D4DCFFEB3219E5B02 /* Pods-QureAi-QureAiUITests.debug.xcconfig */,
+				A24973DA883DA1F70F565EAD /* Pods-QureAi-QureAiUITests.release.xcconfig */,
+				732F9B2F7F21D57C2270E78A /* Pods-QureAiTests.debug.xcconfig */,
+				742A3F99EE9A8F0F3AAB64C7 /* Pods-QureAiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9E789072B812F6FD435DD1D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAF03C0BA9AAA4DC7B7FC8A7 /* Pods_QureAi.framework */,
+				882A270FAEF9EEEDA8668D7E /* Pods_QureAi_QureAiUITests.framework */,
+				F5DBCC5956ED142DB0630935 /* Pods_QureAiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF5918AB2BFCAB1B000012CF /* CellIdentifiers */ = {
+			isa = PBXGroup;
+			children = (
+				CF5918AC2BFCAB5E000012CF /* CellIdentifiers.swift */,
+			);
+			path = CellIdentifiers;
+			sourceTree = "<group>";
+		};
+		CF5918B22BFCADB4000012CF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CF5918B02BFCADAB000012CF /* AppImages.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CF5918B32BFCB773000012CF /* GenericDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				CF5918B52BFCB7A0000012CF /* GenericDataSource.swift */,
+				CF5918B72BFCB7BD000012CF /* ListViewDataSource.swift */,
+			);
+			path = GenericDataSource;
+			sourceTree = "<group>";
+		};
+		CF5918B42BFCB788000012CF /* TableViewCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				CF5918B32BFCB773000012CF /* GenericDataSource */,
+			);
+			path = TableViewCollectionView;
+			sourceTree = "<group>";
+		};
+		CF5918B92BFCB806000012CF /* LandingPage */ = {
+			isa = PBXGroup;
+			children = (
+				CF5918BA2BFCB81B000012CF /* LandingPageViewModel.swift */,
+			);
+			path = LandingPage;
+			sourceTree = "<group>";
+		};
+		CF5918FC2BFCF4B4000012CF /* UIColors */ = {
+			isa = PBXGroup;
+			children = (
+				CF5918FD2BFCF4C2000012CF /* AppColors.swift */,
+			);
+			path = UIColors;
+			sourceTree = "<group>";
+		};
+		CF5919042BFD15BC000012CF /* PhoneNumberScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CF5919052BFD15E3000012CF /* PhoneNumberViewController.swift */,
+			);
+			path = PhoneNumberScreen;
+			sourceTree = "<group>";
+		};
+		CF5919072BFD160D000012CF /* PhoneNumberScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PhoneNumberScreen;
+			sourceTree = "<group>";
+		};
+		CF8425E42BF61CD700FA2772 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				CF8425E62BF61CFD00FA2772 /* Navigator.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		CF8425E92BF630B600FA2772 /* LandingScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CF8425F02BF749C000FA2772 /* LandingPageCollectionViewCell */,
+				CF8425EA2BF630DD00FA2772 /* LandingPageViewController.swift */,
+			);
+			path = LandingScreen;
+			sourceTree = "<group>";
+		};
+		CF8425EC2BF630EE00FA2772 /* VCs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VCs;
+			sourceTree = "<group>";
+		};
+		CF8425ED2BF7410700FA2772 /* Localizations */ = {
+			isa = PBXGroup;
+			children = (
+				CF5918AE2BFCAD0D000012CF /* AppStrings.swift */,
+			);
+			path = Localizations;
+			sourceTree = "<group>";
+		};
+		CF8425F02BF749C000FA2772 /* LandingPageCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CF8425F12BF749E800FA2772 /* LandingPageCollectionViewCell.swift */,
+				CF8425F22BF749E800FA2772 /* LandingPageCollectionViewCell.xib */,
+			);
+			path = LandingPageCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		CF8425F62BF7A65A00FA2772 /* LandingPage */ = {
+			isa = PBXGroup;
+			children = (
+				CF8425F72BF7A68100FA2772 /* OnboardingModel.swift */,
+			);
+			path = LandingPage;
+			sourceTree = "<group>";
+		};
+		CF8425FE2BFB3D6A00FA2772 /* Light_Dark Theme */ = {
+			isa = PBXGroup;
+			children = (
+				CF8426002BFB3DAA00FA2772 /* ThemeManager.swift */,
+			);
+			path = "Light_Dark Theme";
+			sourceTree = "<group>";
+		};
 		CFCC1F172BF5E0F100BEB4FA = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +327,8 @@
 				CFCC1F3C2BF5E0F300BEB4FA /* QureAiTests */,
 				CFCC1F462BF5E0F300BEB4FA /* QureAiUITests */,
 				CFCC1F212BF5E0F100BEB4FA /* Products */,
+				085DF8B3C5356ABA11B756A7 /* Pods */,
+				9E789072B812F6FD435DD1D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,17 +345,18 @@
 		CFCC1F222BF5E0F100BEB4FA /* QureAi */ = {
 			isa = PBXGroup;
 			children = (
+				CF8425F52BF74B5500FA2772 /* QureAi.entitlements */,
+				CFC24FF92BF5FEFD00FFDA7F /* splash_video.mp4 */,
+				CFCC1F342BF5E0F300BEB4FA /* Info.plist */,
 				CFCC1F5F2BF5EA2200BEB4FA /* Storyboards */,
 				CFCC1F5C2BF5E9BF00BEB4FA /* Managers */,
+				CF8425ED2BF7410700FA2772 /* Localizations */,
 				CFCC1F5B2BF5E9B800BEB4FA /* Utilities */,
 				CFCC1F5A2BF5E9B000BEB4FA /* ViewModels */,
 				CFCC1F592BF5E9AC00BEB4FA /* Views */,
 				CFCC1F582BF5E9A500BEB4FA /* Models */,
 				CFCC1F572BF5E98700BEB4FA /* Resources */,
 				CFCC1F562BF5E97000BEB4FA /* Core */,
-				CFCC1F272BF5E0F100BEB4FA /* ViewController.swift */,
-				CFCC1F292BF5E0F100BEB4FA /* Main.storyboard */,
-				CFCC1F312BF5E0F300BEB4FA /* LaunchScreen.storyboard */,
 				CFCC1F2C2BF5E0F100BEB4FA /* QureAi.xcdatamodeld */,
 			);
 			path = QureAi;
@@ -148,8 +391,9 @@
 		CFCC1F572BF5E98700BEB4FA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CFDE89A92BFC975A00A3209B /* IBMPlexSansFont */,
 				CFCC1F2F2BF5E0F300BEB4FA /* Assets.xcassets */,
-				CFCC1F342BF5E0F300BEB4FA /* Info.plist */,
+				CF8425EE2BF7417D00FA2772 /* ColorAssets.xcassets */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -157,6 +401,7 @@
 		CFCC1F582BF5E9A500BEB4FA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CF8425F62BF7A65A00FA2772 /* LandingPage */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -164,6 +409,8 @@
 		CFCC1F592BF5E9AC00BEB4FA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CF5919042BFD15BC000012CF /* PhoneNumberScreen */,
+				CF8425E92BF630B600FA2772 /* LandingScreen */,
 				CFCC1F602BF5EEB700BEB4FA /* SplashScreen */,
 			);
 			path = Views;
@@ -172,6 +419,8 @@
 		CFCC1F5A2BF5E9B000BEB4FA /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CF5919072BFD160D000012CF /* PhoneNumberScreen */,
+				CF5918B92BFCB806000012CF /* LandingPage */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -179,6 +428,8 @@
 		CFCC1F5B2BF5E9B800BEB4FA /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				CF5918B42BFCB788000012CF /* TableViewCollectionView */,
+				CF8425E42BF61CD700FA2772 /* Structs */,
 				CFCC1F5E2BF5E9CE00BEB4FA /* Extensions */,
 				CFCC1F5D2BF5E9C600BEB4FA /* Constants */,
 			);
@@ -188,6 +439,8 @@
 		CFCC1F5C2BF5E9BF00BEB4FA /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				CF8425FE2BFB3D6A00FA2772 /* Light_Dark Theme */,
+				CFCC1F632BF5F99800BEB4FA /* Networking */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -195,6 +448,10 @@
 		CFCC1F5D2BF5E9C600BEB4FA /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				CF5918FC2BFCF4B4000012CF /* UIColors */,
+				CF5918B22BFCADB4000012CF /* Images */,
+				CF5918AB2BFCAB1B000012CF /* CellIdentifiers */,
+				CF8425EC2BF630EE00FA2772 /* VCs */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -202,6 +459,10 @@
 		CFCC1F5E2BF5E9CE00BEB4FA /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				CF5918A52BFCA0F2000012CF /* UIColor+Extension.swift */,
+				CF5918A62BFCA0F2000012CF /* UIView+Extension.swift */,
+				CF5919022BFCFA2E000012CF /* UIFont+Extension.swift */,
+				CF5919082BFD17A5000012CF /* UIButton+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -209,6 +470,8 @@
 		CFCC1F5F2BF5EA2200BEB4FA /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
+				CFCC1F292BF5E0F100BEB4FA /* Main.storyboard */,
+				CFCC1F312BF5E0F300BEB4FA /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -217,8 +480,43 @@
 			isa = PBXGroup;
 			children = (
 				CFCC1F612BF5EED500BEB4FA /* SplashViewController.swift */,
+				CF8425E22BF618E800FA2772 /* VideoPlayerView.swift */,
 			);
 			path = SplashScreen;
+			sourceTree = "<group>";
+		};
+		CFCC1F632BF5F99800BEB4FA /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CF84260B2BFB75E300FA2772 /* APIEndpoint.swift */,
+				CF84260D2BFB763E00FA2772 /* NetworkManager.swift */,
+				CF84260F2BFB76C900FA2772 /* DataParser.swift */,
+				CF8426112BFB772E00FA2772 /* HTTPMethod.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CFDE89A92BFC975A00A3209B /* IBMPlexSansFont */ = {
+			isa = PBXGroup;
+			children = (
+				CF5918DC2BFCDA95000012CF /* IBMPlexSans-Bold.ttf */,
+				CF5918E02BFCDA95000012CF /* IBMPlexSans-BoldItalic.ttf */,
+				CF5918E42BFCDA95000012CF /* IBMPlexSans-ExtraLight.ttf */,
+				CF5918E82BFCDA95000012CF /* IBMPlexSans-ExtraLightItalic.ttf */,
+				CF5918E32BFCDA95000012CF /* IBMPlexSans-Italic.ttf */,
+				CF5918DF2BFCDA95000012CF /* IBMPlexSans-Light.ttf */,
+				CF5918E52BFCDA95000012CF /* IBMPlexSans-LightItalic.ttf */,
+				CF5918E92BFCDA95000012CF /* IBMPlexSans-Medium.ttf */,
+				CF5918DD2BFCDA95000012CF /* IBMPlexSans-MediumItalic.ttf */,
+				CF5918EB2BFCDA96000012CF /* IBMPlexSans-Regular.ttf */,
+				CF5918E72BFCDA95000012CF /* IBMPlexSans-SemiBold.ttf */,
+				CF5918EA2BFCDA95000012CF /* IBMPlexSans-SemiBoldItalic.ttf */,
+				CF5918E62BFCDA95000012CF /* IBMPlexSans-Text.ttf */,
+				CF5918E12BFCDA95000012CF /* IBMPlexSans-TextItalic.ttf */,
+				CF5918E22BFCDA95000012CF /* IBMPlexSans-Thin.ttf */,
+				CF5918DE2BFCDA95000012CF /* IBMPlexSans-ThinItalic.ttf */,
+			);
+			path = IBMPlexSansFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +526,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFCC1F4D2BF5E0F300BEB4FA /* Build configuration list for PBXNativeTarget "QureAi" */;
 			buildPhases = (
+				C00667280597D712EA0D6A46 /* [CP] Check Pods Manifest.lock */,
 				CFCC1F1C2BF5E0F100BEB4FA /* Sources */,
 				CFCC1F1D2BF5E0F100BEB4FA /* Frameworks */,
 				CFCC1F1E2BF5E0F100BEB4FA /* Resources */,
+				59449C7E311E377D5A906AF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -245,6 +545,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFCC1F502BF5E0F300BEB4FA /* Build configuration list for PBXNativeTarget "QureAiTests" */;
 			buildPhases = (
+				8F55E98F9DE6356D501CFF30 /* [CP] Check Pods Manifest.lock */,
 				CFCC1F352BF5E0F300BEB4FA /* Sources */,
 				CFCC1F362BF5E0F300BEB4FA /* Frameworks */,
 				CFCC1F372BF5E0F300BEB4FA /* Resources */,
@@ -263,9 +564,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFCC1F532BF5E0F300BEB4FA /* Build configuration list for PBXNativeTarget "QureAiUITests" */;
 			buildPhases = (
+				CC8468F47A6201823E6891F7 /* [CP] Check Pods Manifest.lock */,
 				CFCC1F3F2BF5E0F300BEB4FA /* Sources */,
 				CFCC1F402BF5E0F300BEB4FA /* Frameworks */,
 				CFCC1F412BF5E0F300BEB4FA /* Resources */,
+				1353394DF93E83D1AE9E699F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -325,9 +628,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF5918EF2BFCDA96000012CF /* IBMPlexSans-Light.ttf in Resources */,
+				CF5918EE2BFCDA96000012CF /* IBMPlexSans-ThinItalic.ttf in Resources */,
+				CF8425EF2BF7417D00FA2772 /* ColorAssets.xcassets in Resources */,
+				CFC24FFA2BF5FFD100FFDA7F /* splash_video.mp4 in Resources */,
+				CF5918ED2BFCDA96000012CF /* IBMPlexSans-MediumItalic.ttf in Resources */,
+				CF5918EC2BFCDA96000012CF /* IBMPlexSans-Bold.ttf in Resources */,
+				CF5918F42BFCDA96000012CF /* IBMPlexSans-ExtraLight.ttf in Resources */,
+				CF5918F22BFCDA96000012CF /* IBMPlexSans-Thin.ttf in Resources */,
+				CF5918F52BFCDA96000012CF /* IBMPlexSans-LightItalic.ttf in Resources */,
 				CFCC1F302BF5E0F300BEB4FA /* Assets.xcassets in Resources */,
+				CF5918FB2BFCDA96000012CF /* IBMPlexSans-Regular.ttf in Resources */,
+				CF5918F72BFCDA96000012CF /* IBMPlexSans-SemiBold.ttf in Resources */,
+				CF5918FA2BFCDA96000012CF /* IBMPlexSans-SemiBoldItalic.ttf in Resources */,
+				CF8425F32BF749E800FA2772 /* LandingPageCollectionViewCell.xib in Resources */,
+				CF5918F12BFCDA96000012CF /* IBMPlexSans-TextItalic.ttf in Resources */,
+				CF5918F82BFCDA96000012CF /* IBMPlexSans-ExtraLightItalic.ttf in Resources */,
+				CF5918F92BFCDA96000012CF /* IBMPlexSans-Medium.ttf in Resources */,
+				CF5918F62BFCDA96000012CF /* IBMPlexSans-Text.ttf in Resources */,
 				CFCC1F332BF5E0F300BEB4FA /* Base in Resources */,
+				CF5918F02BFCDA96000012CF /* IBMPlexSans-BoldItalic.ttf in Resources */,
 				CFCC1F2B2BF5E0F100BEB4FA /* Base in Resources */,
+				CF5918F32BFCDA96000012CF /* IBMPlexSans-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,16 +669,140 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1353394DF93E83D1AE9E699F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QureAi-QureAiUITests/Pods-QureAi-QureAiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QureAi-QureAiUITests/Pods-QureAi-QureAiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QureAi-QureAiUITests/Pods-QureAi-QureAiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59449C7E311E377D5A906AF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QureAi/Pods-QureAi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QureAi/Pods-QureAi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QureAi/Pods-QureAi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F55E98F9DE6356D501CFF30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QureAiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C00667280597D712EA0D6A46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QureAi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC8468F47A6201823E6891F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QureAi-QureAiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CFCC1F1C2BF5E0F100BEB4FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFCC1F282BF5E0F100BEB4FA /* ViewController.swift in Sources */,
+				CF5918AF2BFCAD0D000012CF /* AppStrings.swift in Sources */,
+				CF8425E72BF61CFD00FA2772 /* Navigator.swift in Sources */,
 				CFCC1F242BF5E0F100BEB4FA /* AppDelegate.swift in Sources */,
+				CF5918A82BFCA0F3000012CF /* UIView+Extension.swift in Sources */,
+				CF8425EB2BF630DD00FA2772 /* LandingPageViewController.swift in Sources */,
+				CF5918FE2BFCF4C2000012CF /* AppColors.swift in Sources */,
 				CFCC1F2E2BF5E0F100BEB4FA /* QureAi.xcdatamodeld in Sources */,
+				CF5918B82BFCB7BD000012CF /* ListViewDataSource.swift in Sources */,
+				CF84260C2BFB75E300FA2772 /* APIEndpoint.swift in Sources */,
+				CF5918B12BFCADAB000012CF /* AppImages.swift in Sources */,
 				CFCC1F262BF5E0F100BEB4FA /* SceneDelegate.swift in Sources */,
+				CF8425F82BF7A68100FA2772 /* OnboardingModel.swift in Sources */,
+				CF5919062BFD15E3000012CF /* PhoneNumberViewController.swift in Sources */,
+				CF5918B62BFCB7A0000012CF /* GenericDataSource.swift in Sources */,
 				CFCC1F622BF5EED500BEB4FA /* SplashViewController.swift in Sources */,
+				CF5918AD2BFCAB5E000012CF /* CellIdentifiers.swift in Sources */,
+				CF8425E32BF618E800FA2772 /* VideoPlayerView.swift in Sources */,
+				CF5918A72BFCA0F3000012CF /* UIColor+Extension.swift in Sources */,
+				CF5919032BFCFA2E000012CF /* UIFont+Extension.swift in Sources */,
+				CF84260E2BFB763E00FA2772 /* NetworkManager.swift in Sources */,
+				CF8426102BFB76C900FA2772 /* DataParser.swift in Sources */,
+				CF8426122BFB772E00FA2772 /* HTTPMethod.swift in Sources */,
+				CF8425F42BF749E800FA2772 /* LandingPageCollectionViewCell.swift in Sources */,
+				CF8426012BFB3DAA00FA2772 /* ThemeManager.swift in Sources */,
+				CF5918BB2BFCB81B000012CF /* LandingPageViewModel.swift in Sources */,
+				CF5919092BFD17A5000012CF /* UIButton+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +863,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -480,6 +927,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -533,25 +981,28 @@
 		};
 		CFCC1F4E2BF5E0F300BEB4FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A81387278F81B2C9CECDFE34 /* Pods-QureAi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QureAi/QureAi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4YJMKZM7D7;
+				DEVELOPMENT_TEAM = 256U247PRM;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QureAi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.qure.QureAi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.qureai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -561,25 +1012,28 @@
 		};
 		CFCC1F4F2BF5E0F300BEB4FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B3324C662A53563BDBD0619 /* Pods-QureAi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = QureAi/QureAi.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 4YJMKZM7D7;
+				DEVELOPMENT_TEAM = 256U247PRM;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QureAi/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.qure.QureAi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.qureai;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -589,6 +1043,7 @@
 		};
 		CFCC1F512BF5E0F300BEB4FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 732F9B2F7F21D57C2270E78A /* Pods-QureAiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -609,6 +1064,7 @@
 		};
 		CFCC1F522BF5E0F300BEB4FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 742A3F99EE9A8F0F3AAB64C7 /* Pods-QureAiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -629,6 +1085,7 @@
 		};
 		CFCC1F542BF5E0F300BEB4FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 071FE12D4DCFFEB3219E5B02 /* Pods-QureAi-QureAiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -647,6 +1104,7 @@
 		};
 		CFCC1F552BF5E0F300BEB4FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24973DA883DA1F70F565EAD /* Pods-QureAi-QureAiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

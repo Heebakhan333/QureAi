@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+class CellIdentifiers {
+    
+    static let landingPageCollectionViewCell = String(describing: LandingPageCollectionViewCell.self)
+    
+    // Add other cell identifiers here as needed
+}
