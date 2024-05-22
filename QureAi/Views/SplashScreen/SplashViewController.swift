@@ -95,8 +95,11 @@ class SplashViewController: UIViewController {
     }
     
     @objc func playerDidFinishPlaying(_ notification: Notification) {
-       // self.pushVC()
-        performSegue(withIdentifier: "goToOnboardingPage", sender: self)
+        self.pushVC()
+//        if (self.navigationController?.visibleViewController == self) {
+//            performSegue(withIdentifier: "goToOnboardingPage", sender: self)
+//        }
+     //   performSegue(withIdentifier: "goToOnboardingPage", sender: self)
     }
     
     func pushVC() {

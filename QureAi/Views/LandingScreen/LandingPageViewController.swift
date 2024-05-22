@@ -22,7 +22,7 @@ class LandingPageViewController: UIViewController {
     var hasReachedLastPage = false
     var scrollDirectionIsForward = true
     var isManualScrolling = false
-    
+    var navigator: Navigator?
     
     //MARK: Outlets
     @IBOutlet weak var onboardingBackgroundView: UIView!
@@ -36,6 +36,12 @@ class LandingPageViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        overrideUserInterfaceStyle = .light
+    }
+    
+    override func viewDidDisappear(_ animated: Bool) {
+        autoScrollTimer?.invalidate()
+        
     }
     //MARK: Actions
     @IBAction func pageControlAction(_ sender: UIPageControl) {
@@ -43,9 +49,9 @@ class LandingPageViewController: UIViewController {
     @IBAction func getStartedButtonAction(_ sender: UIButton) {
         // checks if this is the last page then go to worklist
         if currentPage == viewModel.items.count - 1 {
-            print("go to nect page")
+            pushVC()
         } else if hasReachedLastPage {
-            print("go to nect page")
+            pushVC()
         } else {
             currentPage += 1
             let indexPath = IndexPath(item: currentPage, section: 0)
@@ -97,6 +103,16 @@ class LandingPageViewController: UIViewController {
     func startAutoScroll() {
         autoScrollTimer?.invalidate()
         autoScrollTimer = Timer.scheduledTimer(timeInterval: 3.0, target: self, selector: #selector(scrollToNextItem), userInfo: nil, repeats: true)
+    }
+    
+    func pushVC() {
+//        guard let vc = navigator?.instantiateVC(withDestinationViewControllerType: PhoneNumberViewController.self) else { return }
+//        // vc.someString = "SOME STRING TO BE PASSED"
+//        navigator?.goTo(viewController: vc, withDisplayVCType: .push)
+        
+        //  performSegue(withIdentifier: "goToPhoneNumberScreen", sender: self)
+        let vc = UIStoryboard.init(name: "Main", bundle: Bundle.main).instantiateViewController(withIdentifier: String(describing: PhoneNumberViewController.self)) as? PhoneNumberViewController
+        self.navigationController?.pushViewController(vc!, animated: true)
     }
     
     func switchToDarkTheme() {
@@ -158,42 +174,66 @@ extension LandingPageViewController: UICollectionViewDelegateFlowLayout {
 
 //MARK: Infinite paging
 extension LandingPageViewController {
+    //    @objc func scrollToNextItem() {
+    //        guard !isManualScrolling else { return } // Pause auto-scrolling if manual scrolling is in progress
+    //        let numberOfSlides = (viewModel.items.count  + viewModel.items.count)
+    //        guard numberOfSlides > 0 else { return }
+    //
+    //        var nextIndex: Int
+    //
+    //        if scrollDirectionIsForward {
+    //            nextIndex = currentPage + 1
+    //        } else {
+    //            nextIndex = currentPage - 1
+    //        }
+    //
+    //        if scrollDirectionIsForward {
+    //            nextIndex = currentPage + 1
+    //            if nextIndex >= numberOfSlides {
+    //                nextIndex = numberOfSlides - 2
+    //                scrollDirectionIsForward = false
+    //            }
+    //        } else {
+    //            nextIndex = currentPage - 1
+    //            if nextIndex < 0 {
+    //                nextIndex = 1
+    //                scrollDirectionIsForward = true
+    //            }
+    //        }
+    //
+    //        // Update scroll direction if necessary
+    //        if nextIndex == 0 || nextIndex == viewModel.items.count - 1 {
+    //            scrollDirectionIsForward = !scrollDirectionIsForward
+    //        }
+    //        let indexPath = IndexPath(item: nextIndex, section: 0)
+    //        onboardingCollectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
+    //        currentPage = nextIndex
+    //    }
+    //
+    
     @objc func scrollToNextItem() {
         guard !isManualScrolling else { return } // Pause auto-scrolling if manual scrolling is in progress
-        let numberOfSlides = (viewModel.items.count  + viewModel.items.count)
+        let numberOfSlides = viewModel.items.count
         guard numberOfSlides > 0 else { return }
         
         var nextIndex: Int
         
-        if scrollDirectionIsForward {
-            nextIndex = currentPage + 1
+        nextIndex = currentPage + 1
+        
+        if nextIndex >= numberOfSlides {
+            // If we've reached the end, reset to the first item
+            nextIndex = 0
+            // Scroll to the first item without animation to create an infinite loop effect
+            let firstIndexPath = IndexPath(item: nextIndex, section: 0)
+            onboardingCollectionView.scrollToItem(at: firstIndexPath, at: .centeredHorizontally, animated: false)
         } else {
-            nextIndex = currentPage - 1
+            // Scroll to the next item with animation
+            let nextIndexPath = IndexPath(item: nextIndex, section: 0)
+            onboardingCollectionView.scrollToItem(at: nextIndexPath, at: .centeredHorizontally, animated: true)
         }
         
-        if scrollDirectionIsForward {
-            nextIndex = currentPage + 1
-            if nextIndex >= numberOfSlides {
-                nextIndex = numberOfSlides - 2
-                scrollDirectionIsForward = false
-            }
-        } else {
-            nextIndex = currentPage - 1
-            if nextIndex < 0 {
-                nextIndex = 1
-                scrollDirectionIsForward = true
-            }
-        }
-        
-        // Update scroll direction if necessary
-        if nextIndex == 0 || nextIndex == viewModel.items.count - 1 {
-            scrollDirectionIsForward = !scrollDirectionIsForward
-        }
-        let indexPath = IndexPath(item: nextIndex, section: 0)
-        onboardingCollectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
         currentPage = nextIndex
     }
-    
     
 }
 

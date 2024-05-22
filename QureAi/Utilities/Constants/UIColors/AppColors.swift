@@ -25,6 +25,16 @@ struct AppColors {
     static let gray9 = UIColor(named: "Gray9")
     static let accentColor = UIColor(named: "AccentColor")
     static let getStartedBtnColor = UIColor(named: "GetStartedBtnColor")
+    static let onboardingText = UIColor(named: "OnboardingText")
+    static let sendOtpText = UIColor(named: "SendOtpText")
+    static let backButtonTint = UIColor(named: "BackButtonTint")
+    static let gradientColor1Dark = UIColor(red: 18/255, green: 28/255, blue: 36/255, alpha: 1.0)
+    static let gradientColor2Dark = UIColor(red: 35/255, green: 67/255, blue: 69/255, alpha: 1.0)
+    static let gradientColor1Light = UIColor(red: 224/255, green: 247/255, blue: 250/255, alpha: 1.0)
+    //UIColor(red: 224/255, green: 247/255, blue: 250/255, alpha: 1.0)
+    static let gradientColor2Light = UIColor(red: 0/255, green: 208/255, blue: 205/255, alpha: 1.0)
+   // UIColor(red: 178/255, green: 235/255, blue: 242/255, alpha: 1.0)
+    
 
 
 }

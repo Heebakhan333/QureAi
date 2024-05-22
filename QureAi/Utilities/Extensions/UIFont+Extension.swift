@@ -28,6 +28,7 @@ extension UIFont {
         
     }
     
+    
     static func customFont(_ type: CustomFont, size: CGFloat) -> UIFont {
         guard let font = UIFont(name: type.rawValue, size: size) else {
             fatalError("Failed to load the \(type.rawValue) font.")

@@ -21,7 +21,7 @@ enum APIEndpoint: Endpoint {
             return "https://platformapi.qure.ai"
         }
     
-    case sendOtp
+    case sendOtp(phoneNumber: String)
     case getUser(id: Int)
     
     var path: String {
@@ -41,7 +41,11 @@ enum APIEndpoint: Endpoint {
     }
     
     var parameters: [String: Any]? {
-        // Add parameters if needed
-        return nil
+        switch self {
+        case .sendOtp(let phoneNumber): // Add phoneNumber parameter to sendOtp case
+            return ["phone_number": phoneNumber]
+        case .getUser:
+            return nil
+        }
     }
 }

@@ -1,0 +1,42 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3xM-lR-ruw"; */
+"3xM-lR-ruw.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "9ai-kq-1on"; */
+"9ai-kq-1on.text" = "Label";
+
+/* Class = "UILabel"; text = "Let's sign you in"; ObjectID = "JFo-4F-SLI"; */
+"JFo-4F-SLI.text" = "Let's sign you in";
+
+/* Class = "UITextField"; placeholder = "+91 Mobile Number"; ObjectID = "JMk-7u-fg0"; */
+"JMk-7u-fg0.placeholder" = "+91 Mobile Number";
+
+/* Class = "UILabel"; text = "Welcome Back!"; ObjectID = "JgB-4f-GJz"; */
+"JgB-4f-GJz.text" = "Welcome Back!";
+
+/* Class = "UILabel"; text = "Error Message"; ObjectID = "Mm4-Ar-iJp"; */
+"Mm4-Ar-iJp.text" = "Error Message";
+
+/* Class = "UIButton"; configuration.title = "NEXT"; ObjectID = "fGk-sm-WfN"; */
+"fGk-sm-WfN.configuration.title" = "NEXT";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fGk-sm-WfN"; */
+"fGk-sm-WfN.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Send OTP "; ObjectID = "fxc-Gs-ike"; */
+"fxc-Gs-ike.configuration.title" = "Send OTP ";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "fxc-Gs-ike"; */
+"fxc-Gs-ike.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "g2p-dE-mF8"; */
+"g2p-dE-mF8.text" = "Label";
+
+/* Class = "UILabel"; text = "Enter Phone Number"; ObjectID = "jYs-ZG-Ybf"; */
+"jYs-ZG-Ybf.text" = "Enter Phone Number";
+
+/* Class = "UILabel"; text = "India's phone numbers only"; ObjectID = "mCD-VA-kfG"; */
+"mCD-VA-kfG.text" = "India's phone numbers only";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yye-n2-ON5"; */
+"yye-n2-ON5.text" = "Label";

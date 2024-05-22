@@ -15,8 +15,6 @@
 		CF5918AD2BFCAB5E000012CF /* CellIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5918AC2BFCAB5E000012CF /* CellIdentifiers.swift */; };
 		CF5918AF2BFCAD0D000012CF /* AppStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5918AE2BFCAD0D000012CF /* AppStrings.swift */; };
 		CF5918B12BFCADAB000012CF /* AppImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5918B02BFCADAB000012CF /* AppImages.swift */; };
-		CF5918B62BFCB7A0000012CF /* GenericDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5918B52BFCB7A0000012CF /* GenericDataSource.swift */; };
-		CF5918B82BFCB7BD000012CF /* ListViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5918B72BFCB7BD000012CF /* ListViewDataSource.swift */; };
 		CF5918BB2BFCB81B000012CF /* LandingPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5918BA2BFCB81B000012CF /* LandingPageViewModel.swift */; };
 		CF5918EC2BFCDA96000012CF /* IBMPlexSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918DC2BFCDA95000012CF /* IBMPlexSans-Bold.ttf */; };
 		CF5918ED2BFCDA96000012CF /* IBMPlexSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF5918DD2BFCDA95000012CF /* IBMPlexSans-MediumItalic.ttf */; };
@@ -38,6 +36,8 @@
 		CF5919032BFCFA2E000012CF /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5919022BFCFA2E000012CF /* UIFont+Extension.swift */; };
 		CF5919062BFD15E3000012CF /* PhoneNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5919052BFD15E3000012CF /* PhoneNumberViewController.swift */; };
 		CF5919092BFD17A5000012CF /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5919082BFD17A5000012CF /* UIButton+Extensions.swift */; };
+		CF59190C2BFD373C000012CF /* PhoneNumbeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF59190B2BFD373C000012CF /* PhoneNumbeModel.swift */; };
+		CF59190E2BFD37A4000012CF /* PhoneNumberScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF59190D2BFD37A4000012CF /* PhoneNumberScreenViewModel.swift */; };
 		CF8425E32BF618E800FA2772 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8425E22BF618E800FA2772 /* VideoPlayerView.swift */; };
 		CF8425E72BF61CFD00FA2772 /* Navigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8425E62BF61CFD00FA2772 /* Navigator.swift */; };
 		CF8425EB2BF630DD00FA2772 /* LandingPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8425EA2BF630DD00FA2772 /* LandingPageViewController.swift */; };
@@ -50,6 +50,7 @@
 		CF84260E2BFB763E00FA2772 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84260D2BFB763E00FA2772 /* NetworkManager.swift */; };
 		CF8426102BFB76C900FA2772 /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF84260F2BFB76C900FA2772 /* DataParser.swift */; };
 		CF8426122BFB772E00FA2772 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8426112BFB772E00FA2772 /* HTTPMethod.swift */; };
+		CF9170AC2BFDE67200024365 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = CF9170AB2BFDE67200024365 /* Localizable.xcstrings */; };
 		CFC24FFA2BF5FFD100FFDA7F /* splash_video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CFC24FF92BF5FEFD00FFDA7F /* splash_video.mp4 */; };
 		CFCC1F242BF5E0F100BEB4FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F232BF5E0F100BEB4FA /* AppDelegate.swift */; };
 		CFCC1F262BF5E0F100BEB4FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F252BF5E0F100BEB4FA /* SceneDelegate.swift */; };
@@ -61,6 +62,10 @@
 		CFCC1F482BF5E0F300BEB4FA /* QureAiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F472BF5E0F300BEB4FA /* QureAiUITests.swift */; };
 		CFCC1F4A2BF5E0F300BEB4FA /* QureAiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F492BF5E0F300BEB4FA /* QureAiUITestsLaunchTests.swift */; };
 		CFCC1F622BF5EED500BEB4FA /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFCC1F612BF5EED500BEB4FA /* SplashViewController.swift */; };
+		CFD9633F2BFDF85B003BEA4D /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD9633E2BFDF85B003BEA4D /* UITextField+Extensions.swift */; };
+		CFD963422BFE0407003BEA4D /* ErrorCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD963412BFE0407003BEA4D /* ErrorCodes.swift */; };
+		CFD963452BFE07CD003BEA4D /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD963442BFE07CD003BEA4D /* OTPViewController.swift */; };
+		CFD963482BFE1F52003BEA4D /* OtpScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD963472BFE1F52003BEA4D /* OtpScreenViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,8 +99,6 @@
 		CF5918AC2BFCAB5E000012CF /* CellIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifiers.swift; sourceTree = "<group>"; };
 		CF5918AE2BFCAD0D000012CF /* AppStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStrings.swift; sourceTree = "<group>"; };
 		CF5918B02BFCADAB000012CF /* AppImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppImages.swift; sourceTree = "<group>"; };
-		CF5918B52BFCB7A0000012CF /* GenericDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericDataSource.swift; sourceTree = "<group>"; };
-		CF5918B72BFCB7BD000012CF /* ListViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewDataSource.swift; sourceTree = "<group>"; };
 		CF5918BA2BFCB81B000012CF /* LandingPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewModel.swift; sourceTree = "<group>"; };
 		CF5918DC2BFCDA95000012CF /* IBMPlexSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Bold.ttf"; sourceTree = "<group>"; };
 		CF5918DD2BFCDA95000012CF /* IBMPlexSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-MediumItalic.ttf"; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 		CF5919022BFCFA2E000012CF /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		CF5919052BFD15E3000012CF /* PhoneNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberViewController.swift; sourceTree = "<group>"; };
 		CF5919082BFD17A5000012CF /* UIButton+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		CF59190B2BFD373C000012CF /* PhoneNumbeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumbeModel.swift; sourceTree = "<group>"; };
+		CF59190D2BFD37A4000012CF /* PhoneNumberScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberScreenViewModel.swift; sourceTree = "<group>"; };
 		CF8425E22BF618E800FA2772 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		CF8425E62BF61CFD00FA2772 /* Navigator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigator.swift; sourceTree = "<group>"; };
 		CF8425EA2BF630DD00FA2772 /* LandingPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageViewController.swift; sourceTree = "<group>"; };
@@ -130,6 +135,11 @@
 		CF84260D2BFB763E00FA2772 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CF84260F2BFB76C900FA2772 /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
 		CF8426112BFB772E00FA2772 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		CF9170A72BFDE62900024365 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/Main.strings"; sourceTree = "<group>"; };
+		CF9170A82BFDE62900024365 /* en-IN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-IN"; path = "en-IN.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		CF9170A92BFDE62E00024365 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		CF9170AA2BFDE62E00024365 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		CF9170AB2BFDE67200024365 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		CFC24FF92BF5FEFD00FFDA7F /* splash_video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = splash_video.mp4; sourceTree = "<group>"; };
 		CFCC1F202BF5E0F100BEB4FA /* QureAi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QureAi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFCC1F232BF5E0F100BEB4FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -145,6 +155,10 @@
 		CFCC1F472BF5E0F300BEB4FA /* QureAiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QureAiUITests.swift; sourceTree = "<group>"; };
 		CFCC1F492BF5E0F300BEB4FA /* QureAiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QureAiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CFCC1F612BF5EED500BEB4FA /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		CFD9633E2BFDF85B003BEA4D /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		CFD963412BFE0407003BEA4D /* ErrorCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCodes.swift; sourceTree = "<group>"; };
+		CFD963442BFE07CD003BEA4D /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		CFD963472BFE1F52003BEA4D /* OtpScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpScreenViewModel.swift; sourceTree = "<group>"; };
 		F5DBCC5956ED142DB0630935 /* Pods_QureAiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QureAiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -215,23 +229,6 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
-		CF5918B32BFCB773000012CF /* GenericDataSource */ = {
-			isa = PBXGroup;
-			children = (
-				CF5918B52BFCB7A0000012CF /* GenericDataSource.swift */,
-				CF5918B72BFCB7BD000012CF /* ListViewDataSource.swift */,
-			);
-			path = GenericDataSource;
-			sourceTree = "<group>";
-		};
-		CF5918B42BFCB788000012CF /* TableViewCollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				CF5918B32BFCB773000012CF /* GenericDataSource */,
-			);
-			path = TableViewCollectionView;
-			sourceTree = "<group>";
-		};
 		CF5918B92BFCB806000012CF /* LandingPage */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,6 +256,15 @@
 		CF5919072BFD160D000012CF /* PhoneNumberScreen */ = {
 			isa = PBXGroup;
 			children = (
+				CF59190D2BFD37A4000012CF /* PhoneNumberScreenViewModel.swift */,
+			);
+			path = PhoneNumberScreen;
+			sourceTree = "<group>";
+		};
+		CF59190A2BFD372A000012CF /* PhoneNumberScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CF59190B2BFD373C000012CF /* PhoneNumbeModel.swift */,
 			);
 			path = PhoneNumberScreen;
 			sourceTree = "<group>";
@@ -290,7 +296,7 @@
 		CF8425ED2BF7410700FA2772 /* Localizations */ = {
 			isa = PBXGroup;
 			children = (
-				CF5918AE2BFCAD0D000012CF /* AppStrings.swift */,
+				CF9170AB2BFDE67200024365 /* Localizable.xcstrings */,
 			);
 			path = Localizations;
 			sourceTree = "<group>";
@@ -318,6 +324,14 @@
 				CF8426002BFB3DAA00FA2772 /* ThemeManager.swift */,
 			);
 			path = "Light_Dark Theme";
+			sourceTree = "<group>";
+		};
+		CF9170A02BFDE50100024365 /* AppStrings */ = {
+			isa = PBXGroup;
+			children = (
+				CF5918AE2BFCAD0D000012CF /* AppStrings.swift */,
+			);
+			path = AppStrings;
 			sourceTree = "<group>";
 		};
 		CFCC1F172BF5E0F100BEB4FA = {
@@ -401,6 +415,7 @@
 		CFCC1F582BF5E9A500BEB4FA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				CF59190A2BFD372A000012CF /* PhoneNumberScreen */,
 				CF8425F62BF7A65A00FA2772 /* LandingPage */,
 			);
 			path = Models;
@@ -409,6 +424,7 @@
 		CFCC1F592BF5E9AC00BEB4FA /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				CFD963432BFE07B7003BEA4D /* OTPScreen */,
 				CF5919042BFD15BC000012CF /* PhoneNumberScreen */,
 				CF8425E92BF630B600FA2772 /* LandingScreen */,
 				CFCC1F602BF5EEB700BEB4FA /* SplashScreen */,
@@ -419,6 +435,7 @@
 		CFCC1F5A2BF5E9B000BEB4FA /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CFD963462BFE1F37003BEA4D /* OTPScreen */,
 				CF5919072BFD160D000012CF /* PhoneNumberScreen */,
 				CF5918B92BFCB806000012CF /* LandingPage */,
 			);
@@ -428,7 +445,6 @@
 		CFCC1F5B2BF5E9B800BEB4FA /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				CF5918B42BFCB788000012CF /* TableViewCollectionView */,
 				CF8425E42BF61CD700FA2772 /* Structs */,
 				CFCC1F5E2BF5E9CE00BEB4FA /* Extensions */,
 				CFCC1F5D2BF5E9C600BEB4FA /* Constants */,
@@ -448,6 +464,8 @@
 		CFCC1F5D2BF5E9C600BEB4FA /* Constants */ = {
 			isa = PBXGroup;
 			children = (
+				CFD963402BFE03FC003BEA4D /* ErrorCodes */,
+				CF9170A02BFDE50100024365 /* AppStrings */,
 				CF5918FC2BFCF4B4000012CF /* UIColors */,
 				CF5918B22BFCADB4000012CF /* Images */,
 				CF5918AB2BFCAB1B000012CF /* CellIdentifiers */,
@@ -463,6 +481,7 @@
 				CF5918A62BFCA0F2000012CF /* UIView+Extension.swift */,
 				CF5919022BFCFA2E000012CF /* UIFont+Extension.swift */,
 				CF5919082BFD17A5000012CF /* UIButton+Extensions.swift */,
+				CFD9633E2BFDF85B003BEA4D /* UITextField+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -494,6 +513,30 @@
 				CF8426112BFB772E00FA2772 /* HTTPMethod.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		CFD963402BFE03FC003BEA4D /* ErrorCodes */ = {
+			isa = PBXGroup;
+			children = (
+				CFD963412BFE0407003BEA4D /* ErrorCodes.swift */,
+			);
+			path = ErrorCodes;
+			sourceTree = "<group>";
+		};
+		CFD963432BFE07B7003BEA4D /* OTPScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CFD963442BFE07CD003BEA4D /* OTPViewController.swift */,
+			);
+			path = OTPScreen;
+			sourceTree = "<group>";
+		};
+		CFD963462BFE1F37003BEA4D /* OTPScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CFD963472BFE1F52003BEA4D /* OtpScreenViewModel.swift */,
+			);
+			path = OTPScreen;
 			sourceTree = "<group>";
 		};
 		CFDE89A92BFC975A00A3209B /* IBMPlexSansFont */ = {
@@ -610,6 +653,8 @@
 			knownRegions = (
 				en,
 				Base,
+				"en-IN",
+				es,
 			);
 			mainGroup = CFCC1F172BF5E0F100BEB4FA;
 			productRefGroup = CFCC1F212BF5E0F100BEB4FA /* Products */;
@@ -644,6 +689,7 @@
 				CF8425F32BF749E800FA2772 /* LandingPageCollectionViewCell.xib in Resources */,
 				CF5918F12BFCDA96000012CF /* IBMPlexSans-TextItalic.ttf in Resources */,
 				CF5918F82BFCDA96000012CF /* IBMPlexSans-ExtraLightItalic.ttf in Resources */,
+				CF9170AC2BFDE67200024365 /* Localizable.xcstrings in Resources */,
 				CF5918F92BFCDA96000012CF /* IBMPlexSans-Medium.ttf in Resources */,
 				CF5918F62BFCDA96000012CF /* IBMPlexSans-Text.ttf in Resources */,
 				CFCC1F332BF5E0F300BEB4FA /* Base in Resources */,
@@ -783,14 +829,16 @@
 				CF5918A82BFCA0F3000012CF /* UIView+Extension.swift in Sources */,
 				CF8425EB2BF630DD00FA2772 /* LandingPageViewController.swift in Sources */,
 				CF5918FE2BFCF4C2000012CF /* AppColors.swift in Sources */,
+				CF59190C2BFD373C000012CF /* PhoneNumbeModel.swift in Sources */,
 				CFCC1F2E2BF5E0F100BEB4FA /* QureAi.xcdatamodeld in Sources */,
-				CF5918B82BFCB7BD000012CF /* ListViewDataSource.swift in Sources */,
 				CF84260C2BFB75E300FA2772 /* APIEndpoint.swift in Sources */,
 				CF5918B12BFCADAB000012CF /* AppImages.swift in Sources */,
+				CFD963482BFE1F52003BEA4D /* OtpScreenViewModel.swift in Sources */,
 				CFCC1F262BF5E0F100BEB4FA /* SceneDelegate.swift in Sources */,
+				CFD963452BFE07CD003BEA4D /* OTPViewController.swift in Sources */,
+				CFD963422BFE0407003BEA4D /* ErrorCodes.swift in Sources */,
 				CF8425F82BF7A68100FA2772 /* OnboardingModel.swift in Sources */,
 				CF5919062BFD15E3000012CF /* PhoneNumberViewController.swift in Sources */,
-				CF5918B62BFCB7A0000012CF /* GenericDataSource.swift in Sources */,
 				CFCC1F622BF5EED500BEB4FA /* SplashViewController.swift in Sources */,
 				CF5918AD2BFCAB5E000012CF /* CellIdentifiers.swift in Sources */,
 				CF8425E32BF618E800FA2772 /* VideoPlayerView.swift in Sources */,
@@ -798,9 +846,11 @@
 				CF5919032BFCFA2E000012CF /* UIFont+Extension.swift in Sources */,
 				CF84260E2BFB763E00FA2772 /* NetworkManager.swift in Sources */,
 				CF8426102BFB76C900FA2772 /* DataParser.swift in Sources */,
+				CF59190E2BFD37A4000012CF /* PhoneNumberScreenViewModel.swift in Sources */,
 				CF8426122BFB772E00FA2772 /* HTTPMethod.swift in Sources */,
 				CF8425F42BF749E800FA2772 /* LandingPageCollectionViewCell.swift in Sources */,
 				CF8426012BFB3DAA00FA2772 /* ThemeManager.swift in Sources */,
+				CFD9633F2BFDF85B003BEA4D /* UITextField+Extensions.swift in Sources */,
 				CF5918BB2BFCB81B000012CF /* LandingPageViewModel.swift in Sources */,
 				CF5919092BFD17A5000012CF /* UIButton+Extensions.swift in Sources */,
 			);
@@ -843,6 +893,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				CFCC1F2A2BF5E0F100BEB4FA /* Base */,
+				CF9170A72BFDE62900024365 /* en-IN */,
+				CF9170A92BFDE62E00024365 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -851,6 +903,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				CFCC1F322BF5E0F300BEB4FA /* Base */,
+				CF9170A82BFDE62900024365 /* en-IN */,
+				CF9170AA2BFDE62E00024365 /* es */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -992,6 +1046,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QureAi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -1023,6 +1078,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QureAi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
